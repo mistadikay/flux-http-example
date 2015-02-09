@@ -1,0 +1,37 @@
+{
+  "name": "flux-http-example",
+  "version": "0.0.1",
+  "description": "Flux flow example with http request and error handling for a better understanding of Flux architecture",
+  "scripts": {
+    "precommit": "npm test",
+    "start": "gulp dev",
+    "test": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mistadikay/flux-http-example.git"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.5.x"
+  },
+  "devDependencies": {
+    "gulp-eslint": "0.4.x",
+    "gulp-jscs": "1.4.x",
+    "husky": "0.6.x",
+    "react-hot-loader": "1.1.x",
+    "webpack-dev-server": "1.7.x"
+  },
+  "dependencies": {
+    "6to5-core": "3.5.x",
+    "6to5-loader": "3.0.x",
+    "eventemitter3": "0.1.6",
+    "flux": "2.0.x",
+    "gulp": "3.8.x",
+    "gulp-load-plugins": "0.8.x",
+    "gulp-util": "3.0.x",
+    "react": "0.12.x",
+    "superagent": "0.21.x",
+    "webpack": "1.5.x"
+  }
+}
