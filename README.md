@@ -1,6 +1,11 @@
 Flux example with http request
 =====================
 
+[![Build Status](http://img.shields.io/travis/mistadikay/flux-http-example/master.svg?style=flat)](http://travis-ci.org/mistadikay/flux-http-example)
+[![Dependency Status](https://david-dm.org/mistadikay/flux-http-example.svg?style=flat)](https://david-dm.org/mistadikay/flux-http-example)
+[![devDependency Status](https://david-dm.org/mistadikay/flux-http-example/dev-status.svg?style=flat)](https://david-dm.org/mistadikay/flux-http-example#info=devDependencies)
+[![Code Climate](https://codeclimate.com/github/mistadikay/flux-http-example/badges/gpa.svg)](https://codeclimate.com/github/mistadikay/flux-http-example)
+
 If you're stuck at understanding Flux architecture, this example might help you. It contains very basic flux data flow with http request and errors handling.
 
 Flux technologies stack:
