@@ -33,9 +33,9 @@ const buildRequest = function(httpMethod, apiMethod, params) {
 };
 
 module.exports = {
-    get: function(apiMethod, queryParams, bodyParams) {
+    get: function(apiMethod, params) {
 
-        return buildRequest('get', apiMethod, queryParams, bodyParams);
+        return buildRequest('get', apiMethod, params);
     }
     // post, put, etc.
 };
