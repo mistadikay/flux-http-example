@@ -67,7 +67,14 @@ const Form = React.createClass({
             dom.input(
                 {
                     type: 'text',
-                    ref: 'search'
+                    ref: 'search',
+                    placeholder: 'search'
+                }
+            ),
+            dom.input(
+                {
+                    type: 'submit',
+                    value: 'HIT ME!'
                 }
             ),
             dom.div(
