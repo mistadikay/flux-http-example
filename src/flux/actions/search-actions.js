@@ -1,12 +1,12 @@
 'use strict';
 
-const api = require('api');
-const dispatcher = require('flux/dispatcher');
-const actionsConstants = require('flux/constants/actions-constants');
+var api = require('api');
+var dispatcher = require('flux/dispatcher');
+var actionsConstants = require('flux/constants/actions-constants');
 
-let isSearching = false;
+var isSearching = false;
 
-const searchActions = {
+var searchActions = {
 
     search: function(query) {
         if (!isSearching) {

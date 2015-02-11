@@ -32,7 +32,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: '6to5!react-hot'
+                loader: 'react-hot'
             }
         ]
     }

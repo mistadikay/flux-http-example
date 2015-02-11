@@ -1,13 +1,13 @@
 'use strict';
 
-const React = require('react');
-const dom = React.DOM;
+var React = require('react');
+var dom = React.DOM;
 
-const searchActions = require('flux/actions/search-actions');
-const actionsConstants = require('flux/constants/actions-constants');
-const searchStore = require('flux/stores/search-store');
+var searchActions = require('flux/actions/search-actions');
+var actionsConstants = require('flux/constants/actions-constants');
+var searchStore = require('flux/stores/search-store');
 
-const Form = React.createClass({
+var Form = React.createClass({
     componentDidMount: function() {
         searchStore.on(actionsConstants.SEARCH_START, this.waitResults);
         searchStore.on(actionsConstants.SEARCH_RESULTS, this.loadResutls);
@@ -49,7 +49,7 @@ const Form = React.createClass({
         });
     },
     getSearchStatusContent: function() {
-        const state = this.state;
+        var state = this.state;
 
         if (state.isSearching) {
             return 'loading...';

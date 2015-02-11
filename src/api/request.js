@@ -1,17 +1,17 @@
 'use strict';
 
-const request = require('superagent');
+var request = require('superagent');
 
-const API_URL = 'http://private-99df4a-fluxhttpexample.apiary-mock.com/';
-const HEADERS = {
+var API_URL = 'http://private-99df4a-fluxhttpexample.apiary-mock.com/';
+var HEADERS = {
     Accept: 'application/json'
 };
 
-const buildRequest = function(httpMethod, apiMethod, params) {
-    const url = API_URL + apiMethod;
+var buildRequest = function(httpMethod, apiMethod, params) {
+    var url = API_URL + apiMethod;
 
     // depending on http method it's either 'query' or 'send' for sending paramaters with request
-    const paramsTransport = httpMethod === 'get' ? 'query' : 'send';
+    var paramsTransport = httpMethod === 'get' ? 'query' : 'send';
 
     return new Promise(
         function(resolve, reject) {

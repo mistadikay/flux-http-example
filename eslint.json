@@ -155,9 +155,6 @@
         "spaced-line-comment": [2, "always"],
         "wrap-regex": 0,
 
-        "generator-star": [2, "start"],
-        "no-var": 1,
-
         "max-depth": 0,
         "max-len": 0,
         "max-params": 0,

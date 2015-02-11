@@ -23,8 +23,6 @@
     "webpack-dev-server": "1.7.x"
   },
   "dependencies": {
-    "6to5-core": "3.5.x",
-    "6to5-loader": "3.0.x",
     "eventemitter3": "0.1.6",
     "flux": "2.0.x",
     "gulp": "3.8.x",

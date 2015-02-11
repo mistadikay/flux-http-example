@@ -1,8 +1,8 @@
 'use strict';
 
-const request = require('api/request');
+var request = require('api/request');
 
-const api = {
+var api = {
     search: function(query) {
         return request.get('search', {
             query: query

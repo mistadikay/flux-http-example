@@ -1,14 +1,14 @@
 'use strict';
 
-const dispatcher = require('flux/dispatcher');
-const events = require('eventemitter3');
-const eventEmitter = new events.EventEmitter();
-const actionsConstants = require('flux/constants/actions-constants');
+var dispatcher = require('flux/dispatcher');
+var events = require('eventemitter3');
+var eventEmitter = new events.EventEmitter();
+var actionsConstants = require('flux/constants/actions-constants');
 
-let searchResults = null;
-let searchError = null;
+var searchResults = null;
+var searchError = null;
 
-const SearchStore = {
+var SearchStore = {
     getSearchResults: function() {
         return JSON.stringify(searchResults);
     },
