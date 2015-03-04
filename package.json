@@ -30,6 +30,6 @@
     "gulp-util": "3.0.x",
     "react": "0.12.x",
     "superagent": "0.21.x",
-    "webpack": "1.5.x"
+    "webpack": "1.7.x"
   }
 }
