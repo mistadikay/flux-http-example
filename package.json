@@ -18,7 +18,7 @@
   "devDependencies": {
     "gulp-eslint": "0.5.x",
     "gulp-jscs": "1.4.x",
-    "husky": "0.6.x",
+    "husky": "0.7.x",
     "react-hot-loader": "1.1.x",
     "webpack-dev-server": "1.7.x"
   },
