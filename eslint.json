@@ -20,6 +20,7 @@
         "no-constant-condition": 2,
         "no-control-regex": 1,
         "no-debugger": 2,
+        "no-duplicate-case": 1,
         "no-dupe-keys": 2,
         "no-empty": 2,
         "no-empty-class": 2,

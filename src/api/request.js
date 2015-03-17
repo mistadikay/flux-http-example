@@ -24,8 +24,14 @@ var buildRequest = function(httpMethod, apiMethod, params) {
                     }
                 )
                 .end(
-                    function(result) {
-                        resolve(result.body, result);
+                    function(error, result) {
+
+                        if (error) {
+                            reject(error);
+
+                        } else {
+                            resolve(result.body, result);
+                        }
                     }
                 );
         }

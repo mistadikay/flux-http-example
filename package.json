@@ -16,10 +16,10 @@
     "npm": "2.5.x"
   },
   "devDependencies": {
-    "gulp-eslint": "0.5.x",
+    "gulp-eslint": "0.7.x",
     "gulp-jscs": "1.4.x",
     "husky": "0.7.x",
-    "react-hot-loader": "1.1.x",
+    "react-hot-loader": "1.2.x",
     "webpack-dev-server": "1.7.x"
   },
   "dependencies": {
@@ -28,8 +28,8 @@
     "gulp": "3.8.x",
     "gulp-load-plugins": "0.8.x",
     "gulp-util": "3.0.x",
-    "react": "0.12.x",
-    "superagent": "0.21.x",
+    "react": "0.13.x",
+    "superagent": "1.1.x",
     "webpack": "1.7.x"
   }
 }
