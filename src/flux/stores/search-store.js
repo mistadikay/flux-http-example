@@ -1,8 +1,8 @@
 'use strict';
 
 var dispatcher = require('flux/dispatcher');
-var events = require('eventemitter3');
-var eventEmitter = new events.EventEmitter();
+var EventEmitter = require('eventemitter3');
+var eventEmitter = new EventEmitter();
 var actionsConstants = require('flux/constants/actions-constants');
 
 var searchResults = null;
