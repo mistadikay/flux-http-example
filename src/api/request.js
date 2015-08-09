@@ -16,8 +16,7 @@ var buildRequest = function(httpMethod, apiMethod, params) {
     return new Promise(
         function(resolve, reject) {
             request[ httpMethod ](url)
-                .set(HEADERS)
-                [ paramsTransport ](params)
+                .set(HEADERS)[ paramsTransport ](params)
                 .on('error',
                     function(error) {
                         reject(error);
