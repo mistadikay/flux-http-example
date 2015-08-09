@@ -14,7 +14,7 @@ var webpackConfig = require('./webpack.config');
 gulp.task('lint', function() {
     return gulp.src([ 'src/**/*.js' ])
         .pipe(jscs({ configPath: './jscs.json' }))
-        .pipe(eslint({ configFile: './eslint.json' }))
+        .pipe(eslint({ configFile: '.eslintrc' }))
         .pipe(eslint.format())
         .pipe(eslint.failOnError());
 });
